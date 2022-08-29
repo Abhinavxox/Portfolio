@@ -1,0 +1,29 @@
+/*------------------for header----------------*/
+.fontCustom {
+    font-family: 'Press Start 2P', cursive !important;
+}
+
+.student {
+    margin-top: -10px;
+}
+
+.skills {
+    width: 50px !important;
+}
+
+.label-black {
+    color: black !important;
+}
+
+.in-center {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+
+.for-card {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+    width: 40% !important;
+}
