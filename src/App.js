@@ -1,19 +1,24 @@
 import React from 'react';
-import Header from './components/Header';
-import Footer from './components/Foooter';
-import Skills from './components/Skills';
-import Card from './components/Card'
+import Home from './components/Home';
+import About from './components/About';
+import Work from './components/Work';
+import Contact from './components/Contact';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
-      <Header />
-      <div className='ui two column grid'>
-        <Skills />
-        <Card />
+    <BrowserRouter>
+      <div>
+        <Navbar />
+        <Switch>
+          <Route exact path='/' component={Home} />
+          <Route path='/about' component={About} />
+          <Route path='/work' component={Work} />
+          <Route path='/contact' component={Contact} />
+        </Switch>
       </div>
-      <Footer />
-    </div>
+    </BrowserRouter>
   );
 }
 

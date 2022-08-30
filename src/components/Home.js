@@ -1,16 +1,17 @@
 import React from 'react';
-import Snapshot from '../images/Snapshot.png'
+import homePage from '../images/homePage.JPG'
 import '../index.css'
 
-const Header = () => {
+const Home = () => {
     return (
-        <div className='ui vertical center aligned segment '>
+        <div className='ui vertical center aligned segment ' style={{ marginTop: '50px' }}>
             <div className='ui image '>
-                <img src={Snapshot} alt="image_portfolio" className='ui large image padded'></img>
+                <img src={homePage} alt="image_portfolio" ></img>
             </div>
             <div className='ui text container'>
+                <h1 className='fontCustom student'>Hello, I'm</h1>
                 <h1 className='fontCustom '>ABHINAV PANDEY</h1>
-                <h3 className='fontCustom student'>I'm a CS student.</h3>
+                <h3 className='fontCustom student'>A CS student.</h3>
             </div>
             <div className='ui text container'>
                 <a className="ui blue image label" href='https://github.com/Abhinavxox' target='_blank' rel="noreferrer">
@@ -27,4 +28,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default Home;
