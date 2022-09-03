@@ -29,11 +29,12 @@ class Navbar extends React.Component {
             nav.setAttribute('style', 'display:none !important');
             cross.setAttribute('style', 'display:none !important');
         }
+
     }
 
     render() {
         return (
-            <div className='ui large secondary pointing menu ' style={{ background: 'white', marginBottom: '2px' }}>
+            <div className='ui  menu ' style={{ background: 'white', marginBottom: '2px' }}>
                 <a href='#' className='toggle-button'>
                     <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
                         <FaBars size={40} onClick={this.onActive} />
