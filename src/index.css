@@ -7,9 +7,6 @@
     margin-top: -10px;
 }
 
-.skills {
-    width: 50px !important;
-}
 
 .label-black {
     color: black !important;
@@ -56,5 +53,29 @@
 }
 
 .links {
+    padding: 2% !important;
+}
+
+.about-content {
+    width: 55% !important;
+    margin-right: 5% !important;
+    height: 80% !important;
+}
+
+.skills {
+    width: 40% !important;
+    margin-top: 0 !important;
+}
+
+.work {
+    width: 80% !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin: auto !important;
+    padding: 5% !important;
+}
+
+.padded-work {
     padding: 2% !important;
 }
