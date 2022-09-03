@@ -1,6 +1,10 @@
 import React from 'react';
 import WorkCard from './WorkCard';
 import diceGame from '../images/diceGame.png'
+import rmsystem from '../images/rmsystem.png'
+import nand2tetris from '../images/nand2tetris.png'
+import khms from '../images/khms.png'
+import whack from '../images/whack.png'
 
 const Work = () => {
     return (
@@ -18,38 +22,38 @@ const Work = () => {
                         </div>
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={diceGame} title="Dice Game"
-                                text="Simple dice game made using vanila JS"
-                                demo="https://abhinavxox.github.io/DIcegame/"
-                                github="https://github.com/Abhinavxox/DIcegame"
+                                image={rmsystem} title="Railway Management System"
+                                text="JAVA swing app used to implement data structures in daily life"
+                                demo=""
+                                github="https://github.com/Abhinavxox/Railway-Management-System"
                             /></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={diceGame} title="Dice Game"
-                                text="Simple dice game made using vanila JS"
-                                demo="https://abhinavxox.github.io/DIcegame/"
-                                github="https://github.com/Abhinavxox/DIcegame"
+                                image={nand2tetris} title="Nand2Tetris Project"
+                                text="Made Assembler, VM Translator, Syntax Analyser and Compiler for HACK and binary conversion"
+                                demo=""
+                                github="https://github.com/Abhinavxox/NandToTetris"
                             /></div>
                         </div>
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={diceGame} title="Dice Game"
-                                text="Simple dice game made using vanila JS"
-                                demo="https://abhinavxox.github.io/DIcegame/"
-                                github="https://github.com/Abhinavxox/DIcegame"
+                                image={khms} title="Kitchen Hazard Management System"
+                                text="Implemented LPG and Temperature detection system in tinkercad and LTSpice"
+                                demo="https://www.tinkercad.com/things/806IodcEOs4-kichen-hazard-management/editel"
+                                github="https://github.com/Abhinavxox/Kitchen-Hazard-Management-System"
                             /></div>
                         </div>
                     </div>
                     <div class="row">
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={diceGame} title="Dice Game"
-                                text="Simple dice game made using vanila JS"
-                                demo="https://abhinavxox.github.io/DIcegame/"
-                                github="https://github.com/Abhinavxox/DIcegame"
+                                image={whack} title="Whack-a-Mole"
+                                text="Classic whack a mole game made using vanila JS"
+                                demo="https://abhinavxox.github.io/Whack-a-mole/"
+                                github="https://github.com/Abhinavxox/Whack-a-mole/"
                             /></div>
                         </div>
                         <div class="column">

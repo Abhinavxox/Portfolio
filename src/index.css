@@ -56,6 +56,7 @@
 .skills {
     width: 40% !important;
     margin-top: 0 !important;
+    display: grid !important;
 }
 
 .work {
@@ -136,6 +137,103 @@
 
     .toggle-button {
         display: flex;
+    }
+
+    /*------------------for header----------------*/
+    .fontCustom {
+        font-family: 'Press Start 2P', cursive !important;
+    }
+
+    .student {
+        margin-top: -10px;
+    }
+
+
+    .label-black {
+        color: black !important;
+    }
+
+    .in-center {
+        margin: auto;
+        width: 90%;
+        padding: 10px;
+    }
+
+    .for-card {
+        margin-left: auto !important;
+        margin-right: auto !important;
+        display: block !important;
+        width: 40% !important;
+    }
+
+    .black {
+        color: black !important;
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    .background-image {
+        background: #F5F5F5;
+        min-height: 100vh;
+        background-size: contain !important;
+        background-repeat: no-repeat !important;
+        display: flex !important;
+        flex-direction: column !important;
+    }
+
+    .links {
+        padding: 2% !important;
+    }
+
+    .about-content {
+        width: 55% !important;
+        margin-right: 5% !important;
+        height: 80% !important;
+    }
+
+    .skills {
+        width: 40% !important;
+        margin-top: 0 !important;
+        align-items: center !important;
+        display: grid !important;
+
+    }
+
+    .work {
+        width: 80% !important;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        margin: auto !important;
+        padding: 5% !important;
+    }
+
+    .padded-work {
+        padding: 2% !important;
+    }
+
+    .home {
+        flex: 1 !important;
+        padding-top: 20% !important;
+    }
+
+    .contact {
+        flex: 1 !important;
+        background: url('./images/homePage.JPG');
+        background-repeat: no-repeat !important;
+        background-size: cover !important;
+        padding: 5% !important;
+    }
+
+    .contact-left {
+        width: 95% !important;
+    }
+
+    .pad {
+        padding: 3% !important;
     }
 
 }

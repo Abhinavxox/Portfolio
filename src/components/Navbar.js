@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
 import { NavLink } from 'react-router-dom';
+import React from 'react';
 import '../index.css'
 import { FaBars } from "react-icons/fa";
 import { IconContext } from "react-icons";
@@ -16,7 +16,7 @@ class Navbar extends React.Component {
         const toggle = document.querySelector('.toggle-button');
         const cross = document.querySelector('.cross');
         const nav = document.querySelector('.before-navbar');
-        this.state.flag = !this.state.flag;
+        this.setState({ flag: !this.state.flag })
         if (this.state.flag) {
             toggle.classList.add("hidden")
             nav.classList.add("activeClass")
@@ -35,7 +35,7 @@ class Navbar extends React.Component {
     render() {
         return (
             <div className='ui  menu ' style={{ background: 'white', marginBottom: '2px' }}>
-                <a href='#' className='toggle-button'>
+                <a href='-_' className='toggle-button'>
                     <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
                         <FaBars size={40} onClick={this.onActive} />
                     </IconContext.Provider>

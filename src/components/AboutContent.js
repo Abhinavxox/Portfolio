@@ -7,14 +7,12 @@ const AboutContent = () => {
         <div className='ui very padded segment column fontCustom about-content'>
             <div className='ui middle aligned stackable grid container'>
                 <div class="row">
-                    <div className="eight wide column">
-                        <h3 className="fontCustom">We Help Companies and Companions</h3>
-                        <p>Amet proident incididunt anim nisi consectetur veniam aute non sint nostrud dolor.</p>
-                        <h3 className="fontCustom">We Make Bananas That Can Dance</h3>
-                        <p>Proident excepteur eu irure duis non exercitation laborum sit ex aute.</p>
-                    </div>
-                    <div className="six wide right floated column">
+                    <div className="">
+                        <h3 className="fontCustom">I am an Undergrad student</h3>
+                        <p>I'm currently studying B.Tech CSE with AI at Amrita Vishwa Vidyapeetham, Kollam, India.</p>
                         <img src={Snapshot} class="ui large image" />
+                        <h3 className="fontCustom">I'm exploring different fields</h3>
+                        <p>I've been currently been increasing my proficiency with JAVA for problem solving. I've also been learning REACTJS and MERN framework. </p>
                     </div>
                 </div>
             </div>
