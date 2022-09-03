@@ -73,6 +73,7 @@
 
 .home {
     flex: 1 !important;
+    padding-top: 20% !important;
 }
 
 .contact {
@@ -89,4 +90,31 @@
 
 .pad {
     padding: 3% !important;
+}
+
+.toggle-button {
+    display: none;
+    color: black;
+    position: absolute;
+    left: 87%;
+}
+
+@media (max-width:450px) {
+    .before-navbar {
+        display: none !important;
+    }
+
+    .active {
+        position: absolute !important;
+        height: 100% !important;
+        width: 100% !important;
+        display: block !important;
+        padding: 31% !important;
+        background: #F5F5F5 !important;
+        z-index: 999 !important;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
 }
