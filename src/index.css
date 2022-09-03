@@ -34,22 +34,13 @@
     padding: 0;
 }
 
-.body {
-    height: 100%;
-}
-
-#root {
-    height: 100%;
-}
-
 .background-image {
-    height: 100%;
-    background-size: cover !important;
+    background: #F5F5F5;
+    min-height: 100vh;
+    background-size: contain !important;
     background-repeat: no-repeat !important;
-}
-
-.custom-align {
-    top: 40% !important;
+    display: flex !important;
+    flex-direction: column !important;
 }
 
 .links {
@@ -78,4 +69,27 @@
 
 .padded-work {
     padding: 2% !important;
+}
+
+.home {
+    position: absolute !important;
+    height: 95% !important;
+    width: 100% !important;
+    top: 40% !important;
+}
+
+.contact {
+    flex: 1 !important;
+    background: url('./images/homePage.JPG');
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 5% !important;
+}
+
+.headerDivider {
+    border-right: 1px solid #16222c;
+    position: absolute;
+    right: 50%;
+    top: 10%;
+    height: 80%;
 }

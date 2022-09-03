@@ -3,8 +3,8 @@ import '../index.css'
 
 const Home = () => {
     return (
-        <div className='ui vertical center aligned segment custom-align'>
-            <div className='ui text container' style={{ color: 'white' }}>
+        <div className='ui vertical center aligned segment home'>
+            <div className='ui text container' style={{ color: '#121212' }}>
                 <h3 className='fontCustom '>Hello, I'm</h3>
                 <h1 className='fontCustom '>ABHINAV PANDEY</h1>
                 <h3 className='fontCustom '>A CS student</h3>
