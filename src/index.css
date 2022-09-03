@@ -72,10 +72,7 @@
 }
 
 .home {
-    position: absolute !important;
-    height: 95% !important;
-    width: 100% !important;
-    top: 40% !important;
+    flex: 1 !important;
 }
 
 .contact {
@@ -86,10 +83,10 @@
     padding: 5% !important;
 }
 
-.headerDivider {
-    border-right: 1px solid #16222c;
-    position: absolute;
-    right: 50%;
-    top: 10%;
-    height: 80%;
+.contact-left {
+    width: 95% !important;
+}
+
+.pad {
+    padding: 3% !important;
 }
