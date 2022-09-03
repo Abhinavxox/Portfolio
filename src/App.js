@@ -5,11 +5,12 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Navbar from './components/Navbar';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+import homePage from './images/homePage.JPG'
 
 function App() {
   return (
     <BrowserRouter>
-      <div>
+      <div className='background-image' style={{ backgroundImage: `url(${homePage})` }}>
         <Navbar />
         <Switch>
           <Route exact path='/' component={Home} />
@@ -18,6 +19,7 @@ function App() {
           <Route path='/contact' component={Contact} />
         </Switch>
       </div>
+
     </BrowserRouter>
   );
 }

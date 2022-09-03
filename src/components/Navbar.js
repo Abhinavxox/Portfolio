@@ -4,7 +4,7 @@ import '../index.css'
 
 const Navbar = () => {
     return (
-        <div class="ui large secondary pointing menu fontCustom">
+        <div class="ui large secondary pointing menu fontCustom inverted">
             <NavLink to='/' className="item" exact={true}>Home</NavLink>
             <NavLink to='/about' className="item">About</NavLink>
             <NavLink to='/work' className="item">Work</NavLink>

@@ -31,3 +31,30 @@
 .black {
     color: black !important;
 }
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body {
+    height: 100%;
+}
+
+#root {
+    height: 100%;
+}
+
+.background-image {
+    height: 100%;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+}
+
+.custom-align {
+    top: 40% !important;
+}
+
+.links {
+    padding: 2% !important;
+}

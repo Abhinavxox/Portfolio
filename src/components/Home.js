@@ -1,19 +1,15 @@
 import React from 'react';
-import homePage from '../images/homePage.JPG'
 import '../index.css'
 
 const Home = () => {
     return (
-        <div className='ui vertical center aligned segment ' style={{ marginTop: '50px' }}>
-            <div className='ui image '>
-                <img src={homePage} alt="image_portfolio" ></img>
-            </div>
-            <div className='ui text container'>
-                <h1 className='fontCustom student'>Hello, I'm</h1>
+        <div className='ui vertical center aligned segment custom-align'>
+            <div className='ui text container' style={{ color: 'white' }}>
+                <h3 className='fontCustom '>Hello, I'm</h3>
                 <h1 className='fontCustom '>ABHINAV PANDEY</h1>
-                <h3 className='fontCustom student'>A CS student.</h3>
+                <h3 className='fontCustom '>A CS student</h3>
             </div>
-            <div className='ui text container'>
+            <div className='ui text container links'>
                 <a className="ui blue image label" href='https://github.com/Abhinavxox' target='_blank' rel="noreferrer">
                     <div className="detail">Github</div>
                 </a>
