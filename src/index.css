@@ -99,22 +99,39 @@
     left: 87%;
 }
 
+.hidden {
+    display: none !important;
+}
+
+.not-hidden {
+    display: block !important;
+}
+
+.cross {
+    display: none !important;
+    position: absolute;
+    z-index: 20;
+    top: 90%;
+    left: 50%
+}
+
 @media (max-width:450px) {
     .before-navbar {
         display: none !important;
     }
 
-    .active {
+    .activeClass {
         position: absolute !important;
         height: 100% !important;
         width: 100% !important;
         display: block !important;
         padding: 31% !important;
         background: #F5F5F5 !important;
-        z-index: 999 !important;
+        z-index: 10 !important;
     }
 
     .toggle-button {
         display: flex;
     }
+
 }
