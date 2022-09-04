@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.93a1c320.css",
+    "main.js": "/Portfolio/static/js/main.ca81298d.js",
+    "static/media/a.jpg": "/Portfolio/static/media/a.bf144320b81a8820ad45.jpg",
+    "static/media/whack.png": "/Portfolio/static/media/whack.5ea51b12e7dca23e43f8.png",
+    "static/media/khms.png": "/Portfolio/static/media/khms.ec69ae2b6b0296091199.png",
+    "static/media/rmsystem.png": "/Portfolio/static/media/rmsystem.a8954336798aca0fb5f6.png",
+    "static/media/Snapshot.png": "/Portfolio/static/media/Snapshot.f02ab0f6dd14c95d8870.png",
+    "static/media/diceGame.png": "/Portfolio/static/media/diceGame.cc330f00c783c2d34b00.png",
+    "static/media/quickBill.png": "/Portfolio/static/media/quickBill.326d564abf0bbfcd7119.png",
+    "static/media/homePage.JPG": "/Portfolio/static/media/homePage.a278f2d30dbdc0dd45e0.JPG",
+    "static/media/nand2tetris.png": "/Portfolio/static/media/nand2tetris.08468fbd30efad7660cf.png",
+    "static/media/resume.pdf": "/Portfolio/static/media/resume.f7d7f2d1d691044432b9.pdf",
+    "index.html": "/Portfolio/index.html",
+    "main.93a1c320.css.map": "/Portfolio/static/css/main.93a1c320.css.map",
+    "main.ca81298d.js.map": "/Portfolio/static/js/main.ca81298d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.93a1c320.css",
+    "static/js/main.ca81298d.js"
+  ]
+}
