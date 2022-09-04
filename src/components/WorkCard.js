@@ -15,9 +15,7 @@ const WorkCard = (props) => {
                     </div>
                 </div>
                 <div className="extra content">
-                    <button className='ui button fontCustom' href={props.github}>
-                        GITHUB
-                    </button>
+                    <a className='ui primary button fontCustom' href={props.github} target='_blank'>GITHUB</a>
                 </div>
             </div >
         )
@@ -34,12 +32,8 @@ const WorkCard = (props) => {
                 </div>
             </div>
             <div className="extra content" >
-                <div className='ui button fontCustom ' >
-                    <a href={props.demo} target='_blank' rel="noreferrer">LIVE DEMO</a>
-                </div>
-                <div className='ui button fontCustom ' >
-                    <a href={props.github} target='_blank' rel="noreferrer">GITHUB</a>
-                </div>
+                <a className='ui primary button fontCustom' href={props.demo} target='_blank' rel="noreferrer">LIVE DEMO</a>
+                <a className='ui primary button fontCustom' href={props.github} target='_blank' rel="noreferrer" style={{ marginTop: '1%' }}>GITHUB</a>
             </div>
         </div >
     )

@@ -58,10 +58,10 @@ const Work = () => {
                         </div>
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={diceGame} title="Dice Game"
-                                text="Simple dice game made using vanila JS"
-                                demo="https://abhinavxox.github.io/DIcegame/"
-                                github="https://github.com/Abhinavxox/DIcegame"
+                                image={diceGame} title="Quick-Bill"
+                                text="Desktop app made in JAVA SWING using MVC framework and SQL connectivity"
+                                demo=""
+                                github="https://github.com/Abhinavxox/Quick_Bill"
                             /></div>
                         </div>
                     </div>
