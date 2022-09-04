@@ -15,7 +15,7 @@ class Modal extends React.Component {
         return ReactDOM.createPortal(
             <div className="ui dimmer show modals visible ">
                 <div className="ui raised very padded text container segment sec-menu">
-                    <div class="ui secondary vertical menu fontCustom">
+                    <div className="ui secondary vertical menu fontCustom">
                         <NavLink to='/' className="item" exact={true} onClick={this.close}>Home</NavLink>
                         <NavLink to='/about' className="item" onClick={this.close}>About</NavLink>
                         <NavLink to='/work' className="item" onClick={this.close}>Work</NavLink>
