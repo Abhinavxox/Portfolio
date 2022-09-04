@@ -5,6 +5,7 @@ import rmsystem from '../images/rmsystem.png'
 import nand2tetris from '../images/nand2tetris.png'
 import khms from '../images/khms.png'
 import whack from '../images/whack.png'
+import quickBill from '../images/quickBill.png'
 
 const Work = () => {
     return (
@@ -58,7 +59,7 @@ const Work = () => {
                         </div>
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={diceGame} title="Quick-Bill"
+                                image={quickBill} title="Quick-Bill"
                                 text="Desktop app made in JAVA SWING using MVC framework and SQL connectivity"
                                 demo=""
                                 github="https://github.com/Abhinavxox/Quick_Bill"
