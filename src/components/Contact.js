@@ -39,7 +39,7 @@ const Contact = () => {
         )
             .then((result) => {
                 console.log(result.text);
-                alert("MESSAGE SENT");
+                messageBox("Sent successfully");
 
                 //clear all
                 document.querySelector('#fname').value = "";
@@ -55,6 +55,15 @@ const Contact = () => {
     const messageBox = (msg) => {
         setFlag(!flag)
         setMessage(msg)
+        if (msg == "Sent successfully") {
+            document.querySelector('#alert').classList.remove("negative")
+            document.querySelector('#alert').classList.add("positive")
+        }
+        else if (document.querySelector('#alert').classList.contains("positive")) {
+            document.querySelector('#alert').classList.remove("positive")
+            document.querySelector('#alert').classList.add("negative")
+        }
+
         if (flag) {
             document.querySelector('#alert').classList.remove("hidden")
         }
