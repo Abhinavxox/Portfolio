@@ -1,6 +1,7 @@
 import React from 'react';
 import Skills from './Skills'
 import AboutContent from './AboutContent';
+import resume from '../resume.pdf'
 
 const About = () => {
     return (
@@ -11,7 +12,7 @@ const About = () => {
             </div >
             <div class="ui two column centered grid">
                 <div class="column cv-button">
-                    <button className='ui primary button fontCustom'>DOWNLOAD CV</button>
+                    <a href={resume} download><button className='ui primary button fontCustom' type='submit'>DOWNLOAD CV</button></a>
                 </div>
             </div>
 

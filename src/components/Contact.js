@@ -93,7 +93,6 @@ const Contact = () => {
                                         <div className='row pad'>
                                             <FaLinkedin color='#0A66C2' size={25} /> <p><a href='https://www.linkedin.com/in/abhinav-pandey-480269176/' target='_blank' style={{ color: 'black' }}> Abhinav Pandey</a></p>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
