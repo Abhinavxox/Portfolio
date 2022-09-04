@@ -12,18 +12,18 @@ const Contact = () => {
                         <div class="ui two column grid">
                             <div class="column contact-left">
                                 <div class="ui raised segment">
-                                    <a class="ui red ribbon label">Contact Information</a>
+                                    <a class="ui red ribbon label" href="#">Contact Information</a>
                                     <p>
                                     </p>
                                     <div className='ui very padded segment'>
                                         <div className='row pad'>
-                                            <BsFillTelephoneFill color='green' /> <p>+91 9153563744, +977 9841085450</p>
+                                            <BsFillTelephoneFill color='green' size={25} /> <p>+91 9153563744, +977 9841085450</p>
                                         </div>
                                         <div className='row pad'>
-                                            <FaGithub /> <p><a href='https://github.com/Abhinavxox' target='_blank' style={{ color: 'black' }}> Abhinavxox</a></p>
+                                            <FaGithub size={25} /> <p><a href='https://github.com/Abhinavxox' target='_blank' style={{ color: 'black' }}> Abhinavxox</a></p>
                                         </div>
                                         <div className='row pad'>
-                                            <FaLinkedin color='#0A66C2' /> <p><a href='https://www.linkedin.com/in/abhinav-pandey-480269176/' target='_blank' style={{ color: 'black' }}> Abhinav Pandey</a></p>
+                                            <FaLinkedin color='#0A66C2' size={25} /> <p><a href='https://www.linkedin.com/in/abhinav-pandey-480269176/' target='_blank' style={{ color: 'black' }}> Abhinav Pandey</a></p>
                                         </div>
 
                                     </div>

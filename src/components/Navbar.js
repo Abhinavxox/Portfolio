@@ -2,43 +2,21 @@ import { NavLink } from 'react-router-dom';
 import React from 'react';
 import '../index.css'
 import { FaBars } from "react-icons/fa";
-import { IconContext } from "react-icons";
-import { ImCross } from "react-icons/im";
+import Modal from './Modal'
 
 class Navbar extends React.Component {
 
-    constructor(props) {
-        super(props)
-        this.state = { flag: false }
-    }
-
     onActive = () => {
-        const toggle = document.querySelector('.toggle-button');
-        const cross = document.querySelector('.cross');
-        const nav = document.querySelector('.before-navbar');
-        this.setState({ flag: !this.state.flag })
-        if (this.state.flag) {
-            toggle.classList.add("hidden")
-            nav.classList.add("activeClass")
-            nav.setAttribute('style', 'display:inline !important');
-            cross.setAttribute('style', 'display:flex !important');
-        }
-        else if (!this.state.flag) {
-            toggle.classList.remove("hidden")
-            nav.classList.remove("activeClass")
-            nav.setAttribute('style', 'display:none !important');
-            cross.setAttribute('style', 'display:none !important');
-        }
-
+        document.querySelector('.modals').classList.add("active")
+        document.querySelector('.toggle-button').classList.add('hidden')
     }
 
     render() {
         return (
             <div className='ui  menu ' style={{ background: 'white', marginBottom: '2px' }}>
-                <a href='-_' className='toggle-button'>
-                    <IconContext.Provider value={{ className: "shared-class", size: 70 }}>
-                        <FaBars size={40} onClick={this.onActive} />
-                    </IconContext.Provider>
+                <Modal />
+                <a href='#' className='toggle-button'>
+                    <FaBars size={35} onClick={this.onActive} />
                 </a>
                 <div className="ui large secondary pointing menu fontCustom before-navbar">
                     <NavLink to='/' className="item" exact={true}>Home</NavLink>
@@ -46,7 +24,6 @@ class Navbar extends React.Component {
                     <NavLink to='/work' className="item">Work</NavLink>
                     <NavLink to='/contact' className="item">Contact</NavLink>
                 </div>
-                <div className='cross'><ImCross size={40} onClick={this.onActive} /></div>
             </div >
         )
     }

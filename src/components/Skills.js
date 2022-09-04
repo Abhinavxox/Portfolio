@@ -4,7 +4,7 @@ import '../index.css'
 
 const Skills = () => {
     return (
-        <div className='ui column skills'>
+        <div className='ui column skills' style={{ alignItems: 'center' }}>
             <div className='ui very padded segment'>
                 <div className='fontCustom in-center'>
                     <div className='ui vertical center aligned segment'>

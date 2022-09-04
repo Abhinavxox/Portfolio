@@ -1,9 +1,13 @@
 import React from 'react';
 import '../index.css'
+import HomeCard from './HomeCard';
 
 const Home = () => {
     return (
         <div className='ui vertical center aligned segment home'>
+            <div className='home-card'>
+                <HomeCard />
+            </div>
             <div className='ui text container' style={{ color: '#121212' }}>
                 <h3 className='fontCustom '>Hello, I'm</h3>
                 <h1 className='fontCustom '>ABHINAV PANDEY</h1>

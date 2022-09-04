@@ -18,6 +18,12 @@
     padding: 10px;
 }
 
+.home-card {
+    display: flex !important;
+    justify-content: center !important;
+    margin-bottom: 10% !important;
+}
+
 .for-card {
     margin-left: auto !important;
     margin-right: auto !important;
@@ -47,10 +53,9 @@
     padding: 2% !important;
 }
 
-.about-content {
-    width: 55% !important;
-    margin-right: 5% !important;
-    height: 80% !important;
+.about {
+    padding: 5% !important;
+    width: 100% !important;
 }
 
 .skills {
@@ -74,7 +79,21 @@
 
 .home {
     flex: 1 !important;
-    padding-top: 20% !important;
+    padding-top: 10% !important;
+    display: grid !important;
+    justify-content: center;
+}
+
+.x:hover {
+    color: red;
+}
+
+.minus:hover {
+    color: green;
+}
+
+.square:hover {
+    color: gold;
 }
 
 .contact {
@@ -97,7 +116,7 @@
     display: none;
     color: black;
     position: absolute;
-    left: 87%;
+    left: 90%;
 }
 
 .hidden {
@@ -109,16 +128,40 @@
 }
 
 .cross {
-    display: none !important;
-    position: absolute;
-    z-index: 20;
-    top: 90%;
-    left: 50%
+    margin-top: 100% !important;
 }
 
 .before-navbar {
     display: flex !important;
 }
+
+.cv-button {
+    display: flex !important;
+    justify-content: center !important;
+    margin-top: 5% !important;
+}
+
+.sec-menu {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.overlay {
+    position: absolute;
+    z-index: -10;
+    height: 100%;
+    width: 100%;
+}
+
+.vscrolling_container {
+    height: 100%;
+    overflow: auto;
+}
+
+.even-container {
+    height: 600px;
+}
+
 
 @media (max-width:500px) {
     .before-navbar {
@@ -197,7 +240,6 @@
     .skills {
         width: 40% !important;
         margin-top: 0 !important;
-        align-items: center !important;
         display: grid !important;
 
     }
