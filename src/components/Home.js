@@ -1,12 +1,32 @@
-import React from 'react';
+import React, { useState } from 'react';
 import '../index.css'
 import HomeCard from './HomeCard';
+import a from '../images/a.jpg'
+import v from '../images/v.PNG'
 
 const Home = () => {
+
+    const [count, setCount] = useState(1);
+    const [secret, setSecret] = useState({
+        text: "ME",
+        image: a
+    });
+
+    const clicked = () => {
+        setCount(count + 1)
+        if (count == 10) {
+            setSecret({
+                text: "MINE",
+                image: v
+            })
+        }
+
+    }
+
     return (
         <div className='ui vertical center aligned segment home'>
             <div className='home-card'>
-                <HomeCard />
+                <HomeCard count={count} secret={secret} clicked={clicked.bind(this)} />
             </div>
             <div className='ui text container' style={{ color: '#121212' }}>
                 <h3 className='fontCustom '>Hello, I'm</h3>
