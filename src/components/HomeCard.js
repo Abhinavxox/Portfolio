@@ -1,17 +1,36 @@
-import React from 'react';
+import React, { useState } from 'react';
 import a from '../images/a.jpg'
+import v from '../images/v.PNG'
 const HomeCard = () => {
-    return (
-        <div class="ui card">
-            <div class="content fontCustom">
-                <i class="right floated x icon"></i>
-                <i class="right floated square icon"></i>
-                <i class="right floated minus icon"></i>
+    const [count, setCount] = useState(1);
+    const [secret, setSecret] = useState({
+        text: "ME",
+        image: a
+    });
 
-                <div class="header fontCustom">ME</div>
+    const clicked = () => {
+        setCount(count + 1)
+        if (count == 10) {
+            setSecret({
+                text: "MINE",
+                image: v
+            })
+            console.log(secret)
+        }
+
+    }
+
+    return (
+        <div className="ui card">
+            <div className="content fontCustom">
+                <i className="right floated heart icon" onClick={clicked} ></i>
+                <i className="right floated square icon" ></i>
+                <i className="right floated minus icon" ></i>
+
+                <div className="header fontCustom">{secret.text}</div>
             </div>
-            <div class="extra content">
-                <img src={a} alt="hi" className='ui medium image'></img>
+            <div className="extra content">
+                <img src={secret.image} alt="hi" className='ui medium image'></img>
             </div>
         </div>
     )
