@@ -164,6 +164,7 @@
 
 
 @media (max-width:500px) {
+
     .before-navbar {
         display: none !important;
     }

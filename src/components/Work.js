@@ -6,6 +6,8 @@ import nand2tetris from '../images/nand2tetris.png'
 import khms from '../images/khms.png'
 import whack from '../images/whack.png'
 import quickBill from '../images/quickBill.png'
+import recipeBook from '../images/recipe-book.png'
+
 
 const Work = () => {
     return (
@@ -63,6 +65,16 @@ const Work = () => {
                                 text="Desktop app made in JAVA SWING using MVC framework and SQL connectivity"
                                 demo=""
                                 github="https://github.com/Abhinavxox/Quick_Bill"
+                            /></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="column">
+                            <div class="ui segment"><WorkCard
+                                image={recipeBook} title="Nand2Tetris Project"
+                                text="Used Edamam api ko make a simple react recipe book app"
+                                demo=""
+                                github="https://github.com/Abhinavxox/Recipe-Book-App.git"
                             /></div>
                         </div>
                     </div>

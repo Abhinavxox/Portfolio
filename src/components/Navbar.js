@@ -2,6 +2,7 @@ import { NavLink } from 'react-router-dom';
 import React from 'react';
 import '../index.css'
 import { FaBars } from "react-icons/fa";
+import { BsMoonFill, BsSunFill } from "react-icons/bs";
 import Modal from './Modal'
 
 class Navbar extends React.Component {
@@ -10,6 +11,8 @@ class Navbar extends React.Component {
         document.querySelector('.modals').classList.add("active")
         document.querySelector('.toggle-button').classList.add('hidden')
     }
+
+
 
     render() {
         return (
@@ -24,6 +27,7 @@ class Navbar extends React.Component {
                     <NavLink to='/work' className="item">Work</NavLink>
                     <NavLink to='/contact' className="item">Contact</NavLink>
                 </div>
+
             </div >
         )
     }
