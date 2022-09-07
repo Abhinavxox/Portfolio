@@ -71,7 +71,7 @@ const Work = () => {
                     <div class="row">
                         <div class="column">
                             <div class="ui segment"><WorkCard
-                                image={recipeBook} title="Nand2Tetris Project"
+                                image={recipeBook} title="Recipe-Book App"
                                 text="Used Edamam api ko make a simple react recipe book app"
                                 demo=""
                                 github="https://github.com/Abhinavxox/Recipe-Book-App.git"
