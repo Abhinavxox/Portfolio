@@ -4,7 +4,7 @@ import '../index.css'
 const WorkCard = (props) => {
     if (props.demo === "") {
         return (
-            <div className="ui centered card even-container">
+            <div className="ui centered card even-container wcard">
                 <div className="ui large image " style={{ height: '180px' }}>
                     <img src={props.image} alt="" style={{ height: '180px' }} />
                 </div>
@@ -21,7 +21,7 @@ const WorkCard = (props) => {
         )
     }
     return (
-        <div className="ui centered card even-container" >
+        <div className="ui centered card even-container wcard" >
             <div className="ui large image " style={{ height: '180px' }} >
                 <img src={props.image} alt="" style={{ height: '180px' }} />
             </div>
