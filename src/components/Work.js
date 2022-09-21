@@ -7,6 +7,8 @@ import khms from '../images/khms.png'
 import whack from '../images/whack.png'
 import quickBill from '../images/quickBill.png'
 import recipeBook from '../images/recipe-book.png'
+import ecommerce from '../images/ecommerce.png'
+
 
 
 const Work = () => {
@@ -75,6 +77,14 @@ const Work = () => {
                                 text="Used Edamam api ko make a simple react recipe book app"
                                 demo=""
                                 github="https://github.com/Abhinavxox/Recipe-Book-App.git"
+                            /></div>
+                        </div>
+                        <div class="column">
+                            <div class="ui segment"><WorkCard
+                                image={ecommerce} title="Ecommerce Web App"
+                                text="Used Spring boot framework and SQL database to create a simple functioning website which also features user data saving and checkout"
+                                demo=""
+                                github="https://github.com/Abhinavxox/E-Commerce.git"
                             /></div>
                         </div>
                     </div>

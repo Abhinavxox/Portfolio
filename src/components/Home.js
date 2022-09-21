@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import '../index.css'
 import HomeCard from './HomeCard';
 import a from '../images/a.jpg'
-import v from '../images/v.PNG'
+import v from '../images/v.JPG'
 
 const Home = () => {
 
