@@ -1,10 +1,11 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.9ec7bb0b.css",
-    "main.js": "/Portfolio/static/js/main.d5a05c1b.js",
+    "main.css": "/Portfolio/static/css/main.e3e787f1.css",
+    "main.js": "/Portfolio/static/js/main.44950e04.js",
+    "static/media/ecommerce.png": "/Portfolio/static/media/ecommerce.accef27e98caf03c6ae7.png",
     "static/media/recipe-book.png": "/Portfolio/static/media/recipe-book.dced862553bb11557e3f.png",
+    "static/media/v.JPG": "/Portfolio/static/media/v.ec7c1c2d376b297f14aa.JPG",
     "static/media/a.jpg": "/Portfolio/static/media/a.bf144320b81a8820ad45.jpg",
-    "static/media/v.PNG": "/Portfolio/static/media/v.34f18e846dc1e6bd2535.PNG",
     "static/media/whack.png": "/Portfolio/static/media/whack.5ea51b12e7dca23e43f8.png",
     "static/media/khms.png": "/Portfolio/static/media/khms.ec69ae2b6b0296091199.png",
     "static/media/rmsystem.png": "/Portfolio/static/media/rmsystem.a8954336798aca0fb5f6.png",
@@ -15,11 +16,11 @@
     "static/media/nand2tetris.png": "/Portfolio/static/media/nand2tetris.08468fbd30efad7660cf.png",
     "static/media/resume.pdf": "/Portfolio/static/media/resume.f7d7f2d1d691044432b9.pdf",
     "index.html": "/Portfolio/index.html",
-    "main.9ec7bb0b.css.map": "/Portfolio/static/css/main.9ec7bb0b.css.map",
-    "main.d5a05c1b.js.map": "/Portfolio/static/js/main.d5a05c1b.js.map"
+    "main.e3e787f1.css.map": "/Portfolio/static/css/main.e3e787f1.css.map",
+    "main.44950e04.js.map": "/Portfolio/static/js/main.44950e04.js.map"
   },
   "entrypoints": [
-    "static/css/main.9ec7bb0b.css",
-    "static/js/main.d5a05c1b.js"
+    "static/css/main.e3e787f1.css",
+    "static/js/main.44950e04.js"
   ]
 }
