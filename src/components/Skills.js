@@ -35,10 +35,16 @@ const Skills = () => {
                         <div class="label label-black">{`REACTJS`}</div>
                     </div>
                     <div class="ui progress success">
-                        <div class="bar" style={{ width: '50%' }}>
-                            <div class="progress">50%</div>
+                        <div class="bar" style={{ width: '60%' }}>
+                            <div class="progress">60%</div>
                         </div>
-                        <div class="label label-black">{`MVC FRAMEWORK`}</div>
+                        <div class="label label-black">{`SPRING BOOT`}</div>
+                    </div>
+                    <div class="ui progress success">
+                        <div class="bar" style={{ width: '90%' }}>
+                            <div class="progress">90%</div>
+                        </div>
+                        <div class="label label-black">{`JAVA SWING`}</div>
                     </div>
                 </div>
             </div>
