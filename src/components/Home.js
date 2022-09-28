@@ -37,7 +37,7 @@ const Home = () => {
                 <a className="ui blue image label" href='https://github.com/Abhinavxox' target='_blank' rel="noreferrer">
                     <div className="detail">Github</div>
                 </a>
-                <a className="ui green image label" href='https://www.linkedin.com/in/abhinav-pandey-480269176/' target='_blank' rel="noreferrer">
+                <a className="ui green image label" href='https://www.linkedin.com/in/itsmeabhinavpandey/' target='_blank' rel="noreferrer">
                     <div className="detail">Linkedin</div>
                 </a>
                 <a className="ui blue image label" href='https://twitter.com/MeroNaamAbhinav' target='_blank' rel="noreferrer">
