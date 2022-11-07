@@ -3,9 +3,9 @@ const HomeCard = (props) => {
     return (
         <div className="ui card">
             <div className="content fontCustom">
-                <i className="right floated heart icon" onClick={props.clicked}></i>
-                <i className="right floated square icon" ></i>
-                <i className="right floated minus icon" ></i>
+                <i className="right floated heart icon" onClick={() => props.clicked(3)}></i>
+                <i className="right floated square icon" onClick={() => props.clicked(2)}></i>
+                <i className="right floated minus icon" onClick={() => props.clicked(1)}></i>
 
                 <div className="header fontCustom">{props.secret.text}</div>
             </div>

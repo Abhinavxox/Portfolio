@@ -6,27 +6,41 @@ import v from '../images/v.JPG'
 
 const Home = () => {
 
-    const [count, setCount] = useState(1);
     const [secret, setSecret] = useState({
         text: "ME",
         image: a
     });
 
-    const clicked = () => {
-        setCount(count + 1)
-        if (count == 10) {
+    let pass = [1, 1, 2, 2, 3, 3]
+    let currentCount = 0;
+    let tryPass = []
+
+    const clicked = (key) => {
+
+        if (key == pass[currentCount]) {
+            tryPass.push(key)
+            currentCount++
+        }
+        else {
+            tryPass = []
+            currentCount = 0
+        }
+
+        console.log(tryPass)
+
+        if (JSON.stringify(tryPass) === JSON.stringify(pass)) {
+            console.log("Heloo")
             setSecret({
                 text: "MINE",
                 image: v
             })
         }
-
     }
 
     return (
         <div className='ui vertical center aligned segment home'>
             <div className='home-card'>
-                <HomeCard count={count} secret={secret} clicked={clicked.bind(this)} />
+                <HomeCard secret={secret} clicked={clicked.bind(this)} />
             </div>
             <div className='ui text container' style={{ color: '#121212' }}>
                 <h3 className='fontCustom '>Hello, I'm</h3>
