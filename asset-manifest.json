@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.e3e787f1.css",
-    "main.js": "/Portfolio/static/js/main.44950e04.js",
+    "main.js": "/Portfolio/static/js/main.59b2fff8.js",
     "static/media/ecommerce.png": "/Portfolio/static/media/ecommerce.accef27e98caf03c6ae7.png",
     "static/media/recipe-book.png": "/Portfolio/static/media/recipe-book.dced862553bb11557e3f.png",
     "static/media/v.JPG": "/Portfolio/static/media/v.ec7c1c2d376b297f14aa.JPG",
@@ -17,10 +17,10 @@
     "static/media/resume.pdf": "/Portfolio/static/media/resume.f7d7f2d1d691044432b9.pdf",
     "index.html": "/Portfolio/index.html",
     "main.e3e787f1.css.map": "/Portfolio/static/css/main.e3e787f1.css.map",
-    "main.44950e04.js.map": "/Portfolio/static/js/main.44950e04.js.map"
+    "main.59b2fff8.js.map": "/Portfolio/static/js/main.59b2fff8.js.map"
   },
   "entrypoints": [
     "static/css/main.e3e787f1.css",
-    "static/js/main.44950e04.js"
+    "static/js/main.59b2fff8.js"
   ]
 }
