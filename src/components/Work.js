@@ -105,7 +105,7 @@ const Work = () => {
                   image={ecommerce}
                   title="Ecommerce Web App"
                   text="Used Spring boot framework and SQL database to create a simple functioning website which also features user data saving and checkout"
-                  demo=""
+                  demo="https://drive.google.com/file/d/1IEaI6yLH2Gp8lrT_yDgxAz58ysOU_9ix/view?usp=sharing"
                   github="https://github.com/Abhinavxox/E-Commerce.git"
                 />
               </div>
